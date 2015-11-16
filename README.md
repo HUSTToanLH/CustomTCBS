@@ -1,2 +1,2 @@
-# CustomTCBS
-Clone TCBS by ToanLH
+Custom TCBS clone by ToanLH
+

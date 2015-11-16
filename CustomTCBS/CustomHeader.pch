@@ -1,0 +1,37 @@
+//
+//  CustomHeader.pch
+//  CustomTCBS
+//
+//  Created by TaiND on 11/16/15.
+//  Copyright (c) 2015 Toan Lai. All rights reserved.
+//
+
+#ifndef CustomTCBS_CustomHeader_pch
+#define CustomTCBS_CustomHeader_pch
+
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "AppDelegate.h"
+    #import "LoginVC.h"
+    #import "DefineLang.h"
+    #import "DefineSystem.h"
+    #import "AFNetworking.h"
+    #import "CustomService.h"
+    #import "CustomUIButton.h"
+    #import "CustomUITextfield.h"
+    #import "MTSideVC.h"
+
+#define BASEURL @"http://192.168.40.113:9000/admin/user%@"//@"http://bpstcbs.fss.com.vn/MFlexApps%@"
+#define VERSIONAPP @"I.1.0.0"
+
+#endif
+
+#ifndef TARGET_OS_IOS
+#define TARGET_OS_IOS TARGET_OS_IPHONE
+#endif
+#ifndef TARGET_OS_WATCH
+#define TARGET_OS_WATCH 0
+#endif
