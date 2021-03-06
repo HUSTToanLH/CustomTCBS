@@ -1,2 +1,2 @@
-Custom TCBS clone by ToanLH
+Custom TCBS
 
